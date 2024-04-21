@@ -1,4 +1,4 @@
-class Man:
+class Car_owner:
     def __init__(self, name, about=None):
         self.name = name
         self.about = about
@@ -29,29 +29,29 @@ class Garage:
 
 
 
-kungfury = Man("Kung Fury")
-kungfury.about = "Do my job"
-terminator = Man("T1000", "liquid")
-# print(kungfury.name, kungfury.about)
-# print(terminator.name, terminator.about)
+# kungfury = Car_owner("Kung Fury")
+# kungfury.about = "Do my job"
+# terminator = Car_owner("T1000", "liquid")
+# # print(kungfury.name, kungfury.about)
+# # print(terminator.name, terminator.about)
 
-models = ['bmw', 'mers', 'toyota', 'lada']
-descriptions = ['sedan', 'red', 'diesel', 'zapchasti']
-car1 = Car('bmw', 2000, 'sedan')
-car2 = Car('mers', 2005, 'red')
-car3 = Car('toyota', 1990, 'diesel')
-car4 = Car('lada', 1995, 'zapchasti')
-# print(car1.model, car1.year, car1.descr)
-# print(car2.model, car2.year, car2.descr)
-# print(car3.model, car3.year, car3.descr)
-# print(car4)
+# models = ['bmw', 'mers', 'toyota', 'lada']
+# descriptions = ['sedan', 'red', 'diesel', 'zapchasti']
+# car1 = Car('bmw', 2000, 'sedan')
+# car2 = Car('mers', 2005, 'red')
+# car3 = Car('toyota', 1990, 'diesel')
+# car4 = Car('lada', 1995, 'zapchasti')
+# # print(car1.model, car1.year, car1.descr)
+# # print(car2.model, car2.year, car2.descr)
+# # print(car3.model, car3.year, car3.descr)
+# # print(car4)
 
-g1 = Garage(kungfury)
-g2 = Garage(terminator)
-g1.add_item(car1, 1)
+# g1 = Garage(kungfury)
+# g2 = Garage(terminator)
+# g1.add_item(car1, 1)
+# # print(g1)
+# g1.add_item(car2, 2)
 # print(g1)
-g1.add_item(car2, 2)
-print(g1)
-# print(g2.user.name, g2.storage)
-# print(g1.user.name, g1.get_item())
+# # print(g2.user.name, g2.storage)
+# # print(g1.user.name, g1.get_item())
 
